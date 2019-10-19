@@ -4,3 +4,16 @@ target
 # IntelliJ
 *.iml
 .idea
+
+### Mac Template
+.DS_Store
+
+# Document Generator
+repos/*
+!repos/.gitkeep
+
+asciidoctor-pdf-example/src/docs/*
+!asciidoctor-pdf-example/src/docs/.gitkeep
+
+asciidoctor-epub-example/src/docs/*
+!asciidoctor-epub-example/src/docs/.gitkeep

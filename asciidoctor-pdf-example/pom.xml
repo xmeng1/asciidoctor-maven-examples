@@ -67,6 +67,7 @@
                                                      https://github.com/asciidoctor/asciidoctorj-pdf/issues/3
                                                      https://github.com/jneen/rouge/issues/661
                             -->
+                            <doctype>book</doctype>
                             <sourceHighlighter>coderay</sourceHighlighter>
                             <attributes>
                                 <icons>font</icons>

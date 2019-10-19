@@ -65,8 +65,9 @@
                         </goals>
                         <configuration>
                             <backend>epub3</backend>
+                            <doctype>book</doctype>
                             <sourceHighlighter>coderay</sourceHighlighter>
-                            <sourceDocumentName>spine.adoc</sourceDocumentName>
+                            <sourceDocumentName>index.adoc</sourceDocumentName>
                         </configuration>
                     </execution>
 
@@ -82,7 +83,7 @@
                     <!-- per default, this attribute is set to 'epub3'. -->
                     <!-- you can set this attribute either in the corresponding .adoc file, or provide it like showed
                          in this execution block below -->
-                    <execution>
+                    <!-- <execution>
                         <id>generate-spine-kf8</id>
                         <phase>generate-resources</phase>
                         <goals>
@@ -91,12 +92,12 @@
                         <configuration>
                             <backend>epub3</backend>
                             <sourceHighlighter>coderay</sourceHighlighter>
-                            <sourceDocumentName>spine.adoc</sourceDocumentName>
+                            <sourceDocumentName>index.adoc</sourceDocumentName>
                             <attributes>
                                 <ebook-format>kf8</ebook-format>
                             </attributes>
                         </configuration>
-                    </execution>
+                    </execution> -->
 
 
                     <!-- attention: if there are problems calling kindlegen (see discussion here https://github.com/asciidoctor/asciidoctor-maven-examples/pull/68) -->
