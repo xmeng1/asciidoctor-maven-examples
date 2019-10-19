@@ -8,3 +8,4 @@ For example, we generate PDF and EPUB version of `spring-data-common`
 
 1. [spring-data-common](https://docs.spring.io/spring-data/commons/docs/current/reference/html/)
 2. [spring-jpa](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
+3. [spring-framework](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/)
